@@ -1,0 +1,17 @@
+{
+"plugins": [
+      "stylelint-scss"
+    ],
+  "extends": [
+    "stylelint-scss",
+    "stylelint-config-recommended",
+"stylelint-config-sass-guidelines"
+  ],
+  "rules": {
+    "indentation": 2,
+	"at-rule-no-unknown": null,
+    "block-no-empty": true,
+    "block-closing-brace-newline-after": "always",
+    "color-hex-case": "upper"
+  }
+}
