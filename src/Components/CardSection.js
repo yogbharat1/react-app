@@ -28,7 +28,7 @@ const CardSection = () => {
       <Button
           variant='outline-danger' onClick={() => loadMore()}
 
-className="font-weight-bold text-uppercase p-2"
+className='font-weight-bold text-uppercase p-2'
         >Load More </Button>
 </Col>
 </Row>
