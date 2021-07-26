@@ -8,7 +8,7 @@ const Cards = (props) => {
   const getBgColor = (i) => `bg-${bgColor[i % 4]}`;
 
   return (
-    <Card className={`h-100 text-white shadow ${getBgColor(props.item.id)} `} >
+    <Card className={`h-100 text-white shadow-lg ${getBgColor(props.item.id)} `} >
       <Card.Body className='d-flex flex-column'>
         <div className='date font-weight-light mb-3'>{props.item.publishdate}</div>
         <Card.Title>{props.item.title}</Card.Title>
