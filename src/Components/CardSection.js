@@ -24,12 +24,8 @@ const CardSection = () => {
         
       </Row>
      <Row>
-<Col className='text-center mb-4'>
-      <Button
-          variant='outline-danger' onClick={() => loadMore()}
-
-className='font-weight-bold text-uppercase p-2'
-        >Load More </Button>
+<Col className='text-center mb-4 mt-4'>
+      <Button variant='outline-danger' onClick={() => loadMore()} className='font-weight-bold text-uppercase p-2'>Load More</Button>
 </Col>
 </Row>
 
