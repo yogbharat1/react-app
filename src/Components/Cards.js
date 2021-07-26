@@ -12,7 +12,7 @@ const Cards = (props) => {
       <Card.Body className='d-flex flex-column'>
         <div className='date font-weight-light mb-3'>{props.item.publishdate}</div>
         <Card.Title>{props.item.title}</Card.Title>
-        <Card.Text className="pt-3">{props.item.desc}</Card.Text>
+        <Card.Text className='pt-3'>{props.item.desc}</Card.Text>
       </Card.Body>
       <Card.Footer className='border-top-0 pt-5 pb-4 bg-transparent'>
         <Card.Link
