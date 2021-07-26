@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import PropTypes from 'prop-types';
+import './../App.scss';
 
 const Cards = (props) => {
   /*Use Defualt Boostrap color for Card Background */
