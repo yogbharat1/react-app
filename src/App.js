@@ -10,7 +10,7 @@ import CardSection from './Components/CardSection';
 function App() { 
   return (
 	<div>
-   <Container className="mt-4">
+   <Container className="mt-3">
       <Row>
         <Col sm={12} md={12} lg={9}>
           <h1 className="text-danger">Related Articles</h1>
@@ -18,7 +18,7 @@ function App() {
           </p>
 	</Col>
 	</Row>
-	<Row className="mt-4">
+	<Row className="mt-3">
 	<Col sm={12} md={12}>
 	<CardSection />
 	</Col>
