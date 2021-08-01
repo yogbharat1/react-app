@@ -43,7 +43,7 @@ const data = {
 	url: '#'
     },
 
-{        
+/*{        
         id: 7,
         title: 'Love of learning, art keys to a great year for Gwen',
         desc: 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto',
@@ -84,7 +84,7 @@ const data = {
         desc: 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto',
         publishdate:'15 April, 2018',
 	url: '#'
-    }
+    }*/
 ]
 }
 
